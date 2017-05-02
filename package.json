@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "eslint --ignore-path .gitignore ."
+    "lint": "eslint --ignore-path .gitignore .",
+    "preversion": "yarn run lint && yarn run test",
+    "postversion": "git push && git push --tags"
   },
   "repository": "git@github.com:joawan/throw-if-true.git",
   "author": "Joakim Wånggren <joakim.wanggren@gmail.com>",
