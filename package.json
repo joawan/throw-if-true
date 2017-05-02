@@ -1,6 +1,6 @@
 {
   "name": "throw-if-true",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Util to throw error if truthy is given",
   "main": "index.js",
   "scripts": {
