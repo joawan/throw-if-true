@@ -8,7 +8,11 @@
     "lint": "eslint --ignore-path .gitignore ."
   },
   "repository": "git@github.com:joawan/throw-if-true.git",
-  "author": "(Joakim Wånggren <joakim.wanggren@gmail.com>)",
+  "author": "Joakim Wånggren <joakim.wanggren@gmail.com>",
+  "keywords": [
+    "throw",
+    "custom error"
+  ],
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
