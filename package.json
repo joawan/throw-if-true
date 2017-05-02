@@ -1,0 +1,20 @@
+{
+  "name": "throw-if-true",
+  "version": "1.0.0",
+  "description": "Util to throw error if truthy is given",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "repository": "git@github.com:joawan/throw-if-true.git",
+  "author": "(Joakim Wånggren <joakim.wanggren@gmail.com>)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.3.0"
+  }
+}
