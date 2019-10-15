@@ -5,7 +5,7 @@ A tiny utility to throw error if given param is truthy.
 ## Install
 
 ```bash
-$ yarn add throw-if-true
+$ npm install throw-if-true
 ```
 
 ## Examples

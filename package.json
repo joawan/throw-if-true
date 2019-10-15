@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "lint": "eslint --ignore-path .gitignore .",
-    "preversion": "yarn run lint && yarn run test",
+    "preversion": "npm run lint && npm test",
     "postversion": "git push && git push --tags"
   },
   "repository": "git@github.com:joawan/throw-if-true.git",
@@ -17,10 +17,10 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb-base": "^11.1.3",
-    "eslint-plugin-import": "^2.2.0",
-    "mocha": "^3.3.0"
+    "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.1"
   }
 }
