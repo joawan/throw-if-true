@@ -1,3 +1,13 @@
+# Archived
+
+Please use node built in `assert` instead.
+```js
+const assert = require('assert');
+const httpErrors = require('http-errors');
+
+assert.ok(false, new httpErrors.NotFound(`I'm not here, look elsewhere`);
+```
+
 # throw-if-true
 
 A tiny utility to throw error if given param is truthy.
